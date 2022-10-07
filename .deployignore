@@ -1,0 +1,18 @@
+## Directories to ignore
+.docker/**
+.github/**
+node_modules/**
+storage/**
+tests/**
+
+## Files to ignore
+.deployignore
+.editorconfig
+.env**
+.gitattributes
+.travis.yml
+phpintegration.xml
+phpunit.xml
+**/readme.md
+**/readme_laravel.md
+server.php
