@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
+use WebWhales\LaravelMultilingual\Middleware\DetectRequestLocale;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +18,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::prefix('{locale}')
+     ->middleware(DetectRequestLocale::class)
+     ->group(callback: function () {
+         Route::get('posts', [PostController::class, 'index']);
+         // Route::get('posts/{post}', [PostController::class, 'view']);
+         Route::get('posts/{id}', [PostController::class, 'view']);
+     });

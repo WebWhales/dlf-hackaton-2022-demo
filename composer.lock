@@ -1022,16 +1022,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.34.0",
+            "version": "v9.35.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b7af7ff35497eb1c4e61652f522a862164dbba5a"
+                "reference": "85a465097e4f528520b2fc5924f54609bd6e2e9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b7af7ff35497eb1c4e61652f522a862164dbba5a",
-                "reference": "b7af7ff35497eb1c4e61652f522a862164dbba5a",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/85a465097e4f528520b2fc5924f54609bd6e2e9c",
+                "reference": "85a465097e4f528520b2fc5924f54609bd6e2e9c",
                 "shasum": ""
             },
             "require": {
@@ -1204,7 +1204,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-10-04T13:33:43+00:00"
+            "time": "2022-10-11T13:56:50+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -6018,12 +6018,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/WebWhales/dlf-hackaton-2022.git",
-                "reference": "a6c6834fc259b5cc38269ee006f0e4ad53021c21"
+                "reference": "7cb04c3eabf712adb6b6ee246a05852561b13eb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WebWhales/dlf-hackaton-2022/zipball/a6c6834fc259b5cc38269ee006f0e4ad53021c21",
-                "reference": "a6c6834fc259b5cc38269ee006f0e4ad53021c21",
+                "url": "https://api.github.com/repos/WebWhales/dlf-hackaton-2022/zipball/7cb04c3eabf712adb6b6ee246a05852561b13eb1",
+                "reference": "7cb04c3eabf712adb6b6ee246a05852561b13eb1",
                 "shasum": ""
             },
             "require": {
@@ -6037,11 +6037,10 @@
             "require-dev": {
                 "laravel/pint": "^1.2",
                 "nunomaduro/collision": "^6.0",
-                "nunomaduro/larastan": "^2.0.1",
+                "nunomaduro/larastan": "^2.0",
                 "orchestra/testbench": "^7.0",
                 "pestphp/pest": "^1.21",
                 "pestphp/pest-plugin-laravel": "^1.1",
-                "phpstan/extension-installer": "^1.1",
                 "phpstan/phpstan-deprecation-rules": "^1.0",
                 "phpstan/phpstan-phpunit": "^1.0",
                 "phpunit/phpunit": "^9.5",
@@ -6105,7 +6104,7 @@
                 "source": "https://github.com/WebWhales/dlf-hackaton-2022/tree/master",
                 "issues": "https://github.com/WebWhales/dlf-hackaton-2022/issues"
             },
-            "time": "2022-10-11T13:03:58+00:00"
+            "time": "2022-10-11T14:21:43+00:00"
         },
         {
             "name": "zbateson/mail-mime-parser",

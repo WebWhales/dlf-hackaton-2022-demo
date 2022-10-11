@@ -27,5 +27,13 @@ class DatabaseSeeder extends Seeder
             'slug' => 'nl',
             'name' => 'Nederlands',
         ]);
+
+        Locale::create([
+            'locale' => 'fr',
+            'slug' => 'fr',
+            'name' => 'France',
+        ]);
+
+        $this->call(PostSeeder::class);
     }
 }
