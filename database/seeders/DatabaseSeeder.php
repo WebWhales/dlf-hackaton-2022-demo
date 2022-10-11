@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use WebWhales\LaravelMultilingual\Models\Locale;
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,11 +15,17 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        Locale::create([
+            'locale' => 'en',
+            'slug' => 'en',
+            'name' => 'English',
+            'default_language' => true,
+        ]);
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        Locale::create([
+            'locale' => 'nl',
+            'slug' => 'nl',
+            'name' => 'Nederlands',
+        ]);
     }
 }

@@ -6018,12 +6018,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/WebWhales/dlf-hackaton-2022.git",
-                "reference": "2b1a6242af6e1a87c53668c9c75af136a30399a9"
+                "reference": "a6c6834fc259b5cc38269ee006f0e4ad53021c21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WebWhales/dlf-hackaton-2022/zipball/2b1a6242af6e1a87c53668c9c75af136a30399a9",
-                "reference": "2b1a6242af6e1a87c53668c9c75af136a30399a9",
+                "url": "https://api.github.com/repos/WebWhales/dlf-hackaton-2022/zipball/a6c6834fc259b5cc38269ee006f0e4ad53021c21",
+                "reference": "a6c6834fc259b5cc38269ee006f0e4ad53021c21",
                 "shasum": ""
             },
             "require": {
@@ -6052,7 +6052,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "LaravelMultilingualServiceProvider"
+                        "WebWhales\\LaravelMultilingual\\LaravelMultilingualServiceProvider"
                     ],
                     "aliases": {
                         "LaravelMultilingual": "WebWhales\\LaravelMultilingual\\Facades\\LaravelMultilingual"
@@ -6105,7 +6105,7 @@
                 "source": "https://github.com/WebWhales/dlf-hackaton-2022/tree/master",
                 "issues": "https://github.com/WebWhales/dlf-hackaton-2022/issues"
             },
-            "time": "2022-10-11T12:56:34+00:00"
+            "time": "2022-10-11T13:03:58+00:00"
         },
         {
             "name": "zbateson/mail-mime-parser",
