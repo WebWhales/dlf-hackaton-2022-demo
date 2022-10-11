@@ -24,7 +24,7 @@
     "repositories": [
         {
             "type": "github",
-            "url": "https://github.com/WebWhales/dlf-hackaton-2022"
+            "url": "https://github.com/WebWhales/laravel-multilingual"
         }
     ],
     "autoload": {
