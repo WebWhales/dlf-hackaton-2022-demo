@@ -23,6 +23,5 @@ Route::prefix('{locale}')
      ->middleware(DetectRequestLocale::class)
      ->group(callback: function () {
          Route::get('posts', [PostController::class, 'index']);
-         // Route::get('posts/{post}', [PostController::class, 'view']);
-         Route::get('posts/{id}', [PostController::class, 'view']);
+         Route::get('posts/{post}', [PostController::class, 'view']);
      });

@@ -11,11 +11,8 @@ class PostController extends Controller
         return Post::query()->get();
     }
 
-    public function view(string $locale, $id)
+    public function view(string $locale, Post $post)
     {
-        /** @var Post $post */
-        $post = Post::find($id);
-
         return [
             'post'         => $post,
             'translations' => $post?->getTranslations(),
