@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2bf46be9458ebe16ac6140953e0b4387",
+    "content-hash": "e29365a55d56dba966f236a8d942f860",
     "packages": [
         {
             "name": "brick/math",
@@ -61,6 +61,129 @@
                 }
             ],
             "time": "2022-08-10T22:54:19+00:00"
+        },
+        {
+            "name": "chinleung/laravel-locales",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chinleung/laravel-locales.git",
+                "reference": "a00a7e943a298d4d997a78968ca17b64ed42f438"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chinleung/laravel-locales/zipball/a00a7e943a298d4d997a78968ca17b64ed42f438",
+                "reference": "a00a7e943a298d4d997a78968ca17b64ed42f438",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^9.0",
+                "php": "^8.0|^8.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^7.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "ChinLeung\\LaravelLocales\\LaravelLocalesServiceProvider"
+                    ],
+                    "aliases": {
+                        "LaravelLocales": "ChinLeung\\LaravelLocales\\LaravelLocalesFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ChinLeung\\LaravelLocales\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chin Leung",
+                    "email": "chinleung94@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Add configurations and helpers for a multi locale application.",
+            "homepage": "https://github.com/chinleung/laravel-locales",
+            "keywords": [
+                "chinleung",
+                "laravel-locales"
+            ],
+            "support": {
+                "issues": "https://github.com/chinleung/laravel-locales/issues",
+                "source": "https://github.com/chinleung/laravel-locales/tree/v2.0.0"
+            },
+            "time": "2022-02-14T19:09:21+00:00"
+        },
+        {
+            "name": "chinleung/laravel-multilingual-routes",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chinleung/laravel-multilingual-routes.git",
+                "reference": "2ab5b0ac53026aa3e095c208f0d9a86c39fc366e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chinleung/laravel-multilingual-routes/zipball/2ab5b0ac53026aa3e095c208f0d9a86c39fc366e",
+                "reference": "2ab5b0ac53026aa3e095c208f0d9a86c39fc366e",
+                "shasum": ""
+            },
+            "require": {
+                "chinleung/laravel-locales": "^2.0",
+                "illuminate/support": "^9.0",
+                "php": "^8.0|^8.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^7.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "ChinLeung\\MultilingualRoutes\\MultilingualRoutesServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ChinLeung\\MultilingualRoutes\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chin Leung",
+                    "email": "hello@chinleung.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A package to register multilingual routes.",
+            "homepage": "https://github.com/chinleung/laravel-multilingual-routes",
+            "keywords": [
+                "chinleung",
+                "laravel",
+                "laravel-multilingual-routes",
+                "localization",
+                "routing"
+            ],
+            "support": {
+                "issues": "https://github.com/chinleung/laravel-multilingual-routes/issues",
+                "source": "https://github.com/chinleung/laravel-multilingual-routes/tree/v3.0.1"
+            },
+            "time": "2022-05-18T14:50:56+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -2953,16 +3076,16 @@
         },
         {
             "name": "spatie/laravel-package-tools",
-            "version": "1.13.5",
+            "version": "1.13.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-package-tools.git",
-                "reference": "163ee3bc6c0a987535d8a99722a7dbcc5471a140"
+                "reference": "c377cc7223655c2278c148c1685b8b5a78af5c65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/163ee3bc6c0a987535d8a99722a7dbcc5471a140",
-                "reference": "163ee3bc6c0a987535d8a99722a7dbcc5471a140",
+                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/c377cc7223655c2278c148c1685b8b5a78af5c65",
+                "reference": "c377cc7223655c2278c148c1685b8b5a78af5c65",
                 "shasum": ""
             },
             "require": {
@@ -3000,7 +3123,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-package-tools/issues",
-                "source": "https://github.com/spatie/laravel-package-tools/tree/1.13.5"
+                "source": "https://github.com/spatie/laravel-package-tools/tree/1.13.6"
             },
             "funding": [
                 {
@@ -3008,7 +3131,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-07T14:31:31+00:00"
+            "time": "2022-10-11T06:37:42+00:00"
         },
         {
             "name": "spatie/laravel-ray",
@@ -5890,26 +6013,29 @@
             "time": "2022-06-03T18:03:27+00:00"
         },
         {
-            "name": "webwhales/dlf-hackaton-2022",
+            "name": "webwhales/laravel-multilingual",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WebWhales/dlf-hackaton-2022.git",
-                "reference": "339b324dfb062de1d78bf757f2f320c2087a7163"
+                "reference": "2b1a6242af6e1a87c53668c9c75af136a30399a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WebWhales/dlf-hackaton-2022/zipball/339b324dfb062de1d78bf757f2f320c2087a7163",
-                "reference": "339b324dfb062de1d78bf757f2f320c2087a7163",
+                "url": "https://api.github.com/repos/WebWhales/dlf-hackaton-2022/zipball/2b1a6242af6e1a87c53668c9c75af136a30399a9",
+                "reference": "2b1a6242af6e1a87c53668c9c75af136a30399a9",
                 "shasum": ""
             },
             "require": {
+                "chinleung/laravel-multilingual-routes": "^3.0",
                 "illuminate/contracts": "^9.0",
+                "illuminate/database": "^9.0",
+                "illuminate/support": "^9.0",
                 "php": "^8.1",
                 "spatie/laravel-package-tools": "^1.13.0"
             },
             "require-dev": {
-                "laravel/pint": "^1.0",
+                "laravel/pint": "^1.2",
                 "nunomaduro/collision": "^6.0",
                 "nunomaduro/larastan": "^2.0.1",
                 "orchestra/testbench": "^7.0",
@@ -5926,22 +6052,22 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "WebWhales\\DlfHackaton2022\\DlfHackaton2022ServiceProvider"
+                        "LaravelMultilingualServiceProvider"
                     ],
                     "aliases": {
-                        "DlfHackaton2022": "WebWhales\\DlfHackaton2022\\Facades\\DlfHackaton2022"
+                        "LaravelMultilingual": "WebWhales\\LaravelMultilingual\\Facades\\LaravelMultilingual"
                     }
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "WebWhales\\DlfHackaton2022\\": "src",
-                    "WebWhales\\DlfHackaton2022\\Database\\Factories\\": "database/factories"
+                    "WebWhales\\LaravelMultilingual\\": "src",
+                    "WebWhales\\LaravelMultilingual\\Database\\Factories\\": "database/factories"
                 }
             },
             "autoload-dev": {
                 "psr-4": {
-                    "WebWhales\\DlfHackaton2022\\Tests\\": "tests"
+                    "WebWhales\\LaravelMultilingual\\Tests\\": "tests"
                 }
             },
             "scripts": {
@@ -5968,18 +6094,18 @@
                     "role": "Developer"
                 }
             ],
-            "description": "This is my package dlf-hackaton-2022",
+            "description": "Make your Laravel application multilingual",
             "homepage": "https://github.com/WebWhales/dlf-hackaton-2022",
             "keywords": [
                 "Web Whales",
-                "dlf-hackaton-2022",
-                "laravel"
+                "laravel",
+                "multilingual"
             ],
             "support": {
                 "source": "https://github.com/WebWhales/dlf-hackaton-2022/tree/master",
                 "issues": "https://github.com/WebWhales/dlf-hackaton-2022/issues"
             },
-            "time": "2022-10-07T06:08:55+00:00"
+            "time": "2022-10-11T12:56:34+00:00"
         },
         {
             "name": "zbateson/mail-mime-parser",
@@ -8571,7 +8697,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "webwhales/dlf-hackaton-2022": 20
+        "webwhales/laravel-multilingual": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
